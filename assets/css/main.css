@@ -211,8 +211,16 @@ h6 {
 }
 
 .header .logo img {
-  max-height: 68px;
+  max-height: 70px;
   margin-right: 8px;
+}
+
+
+
+@media (max-width: 768px) {
+  .logo img {
+    max-height: 45px;   /* Mobile size */
+  }
 }
 
 .header .logo h1 {
